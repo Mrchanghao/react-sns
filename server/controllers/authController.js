@@ -45,6 +45,7 @@ exports.signup = async (req, res) => {
       return res.status(500).send(err.message);
     }
     res.json(user);
+    console.log(user)
   })
   
 

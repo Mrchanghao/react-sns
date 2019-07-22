@@ -136,6 +136,6 @@ app.prepare().then(() => {
 
   server.listen(port, err => {
     if (err) throw err;
-    console.log(`Server listening on ${ROOT_URL}`);
+    console.log(`서바가 돌아간다~~ ${ROOT_URL}`);
   });
 });
